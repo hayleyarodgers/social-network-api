@@ -36,7 +36,7 @@ const formatDate = (createdAt) => {
 	return createdAt.toLocaleDateString();
 };
 
-// Create a virtual property 'reactionCount' that gets the number of reactions under each thought
+// Create a virtual property "reactionCount" that gets the number of reactions under each thought
 thoughtSchema.virtual("reactionCount").get(function () {
 	return this.reactions.length;
 });
