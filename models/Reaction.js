@@ -1,5 +1,10 @@
 const { Schema, Types } = require("mongoose");
 
+// Helper function to format date
+const formatDate = (createdAt) => {
+	return createdAt.toLocaleDateString();
+};
+
 // Schema to create the reaction field's subdocument schema in the Thought model
 const reactionSchema = new Schema(
 	{
@@ -29,10 +34,5 @@ const reactionSchema = new Schema(
 		id: false,
 	}
 );
-
-// Helper function to format date
-const formatDate = (createdAt) => {
-	return createdAt.toLocaleDateString();
-};
 
 module.exports = reactionSchema;
