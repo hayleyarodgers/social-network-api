@@ -13,7 +13,7 @@ const userSchema = new Schema(
 			type: String,
 			required: true,
 			unique: true,
-			// User regex to validate email
+			// Use regex to validate email
 			match: [
 				/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
 				"Please add a valid email address.",
