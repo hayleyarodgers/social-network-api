@@ -55,7 +55,8 @@ npm i
 
 To use the application from the command line:
 1. Open the repository in your terminal or bash.
-2. Start the server by entering ```npm run start``` in the command line.
+2. Start the server by entering ```npm run start```.
+3. Test the API routes using Insomnia.
 
 ## Credits
 
