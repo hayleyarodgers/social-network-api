@@ -80,7 +80,7 @@ module.exports = {
 					? res
 							.status(404)
 							.json({ message: "No thought with that id." })
-					: res.json(thought)
+					: res.json({ message: "Thought deleted!" })
 			)
 			.catch((err) => {
 				console.log(err);
