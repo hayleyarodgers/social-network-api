@@ -22,7 +22,7 @@ SO THAT my website can handle large amounts of unstructured data
 
 ### Tools and Technologies Used
 
-To create this application, I used used:
+To create this application, I used:
 - Node.js 
 - Express.js 
 - MongoDB
